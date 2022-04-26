@@ -1,5 +1,41 @@
-#container {
-    background-color: rgb(163, 240, 215);
-    width: 980px;
-    margin: 0px auto;
+@charset "utf-8";
+@import url(normalize.css);
+main {
+    width: 80%;
+    margin: 0px auto ;
+    padding: 40px 80px;
+    border: 1px solid #f6bb9e;
+    background-color: #fff;
+}
+a{
+    color: #df4839;
+}
+h1{
+    width: 300px;
+    margin: 40px auto;
+    padding: 30px;
+    border: 5px solid #95dbbd;
+    background-color: #6fbb9a;
+    color: #fff;
+    font-size: 300%;
+    line-height: 1;
+}
+h2{
+    padding: 10px;  
+    margin-bottom: 30px;    
+    border: 1px dotted #94c8b1;
+    border-left: 10px solid #d0e35b;    
+    color: #6fbb9a;
+}
+.round{
+    border-radius: 50%;
+}
+.more{
+    text-align: right;
+}
+header,nav,footer{
+    text-align: center;
+}
+.h-sub span{
+    font-weight: normal;
 }
