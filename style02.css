@@ -89,14 +89,6 @@ h3 {
     border-radius: 5px;
     box-shadow: 0 0 5px 2px #ffd0ad inset;
 }
-.h-sub1{
-    width: 105px;
-    padding: 5px;
-    background-color: #fbf9cc;
-    color: #ff705b;
-    border-radius: 5px;
-    box-shadow: 0 0 5px 2px #ffd0ad inset;
-}
 .center{
     text-align: center;
     
@@ -106,4 +98,9 @@ h3 {
 }
 .m1{
     margin-top: 10px;
+}
+a[href^="mailto:"]::after{
+    content: url(img/ico_mail.png);
+    margin-left: 5px;
+    vertical-align: middle;
 }
