@@ -89,10 +89,21 @@ h3 {
     border-radius: 5px;
     box-shadow: 0 0 5px 2px #ffd0ad inset;
 }
+.h-sub1{
+    width: 105px;
+    padding: 5px;
+    background-color: #fbf9cc;
+    color: #ff705b;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px #ffd0ad inset;
+}
 .center{
     text-align: center;
     
 }
 .m{
     margin-top: 30px;
+}
+.m1{
+    margin-top: 10px;
 }
