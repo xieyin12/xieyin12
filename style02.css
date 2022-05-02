@@ -1,12 +1,12 @@
 @charset "utf-8";
 
 body {
-    background-color: #517C63;
-    border: 5px solid #AB9C81;
+    background-color: #d7ccb6;
+    border: 5px solid #681414;
 }
 
 a {
-    color: #F3F0E9;
+    color: #681414;
 }
 
 a:hover {
@@ -17,7 +17,7 @@ a:hover {
     width: 798px;
     margin: 40px auto;
     padding: 40px 80px;
-    border: 1px solid #AB9C81;
+    border: 0px solid #fff;
     background-color: #fff;
 }
 
@@ -28,45 +28,72 @@ footer {
 }
 
 h1 {
-    background-color: #4C525F;
-    color: #F3F0E9;
+    background-color: #681414;
+    color: #d7ccb6;
     width: 300px;
     margin: 40px auto;
-    padding: 30px;
-    border: 3px solid #F3F0E9;
+    padding: 40px;
+    border: 4px solid #fff;
     font-size: 200%;
     text-align: center;
     line-height: 1;
-    border-radius: 60%;
+    border-radius: 90%;
     text-shadow: 1px 1px 2px #000;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0, 5);
-    background-image: linear-gradient(to bottom, #6fbb9a, #4a9d79);
+    background-image: linear-gradient(to bottom, #681414, #B53535);
 
 }
 
 h3 {
     padding: 5px;
     margin-bottom: 1px;
-    border: 1px dotted #AB9C81;
-    border-left: 10px solid #517C63;
-    color: #F3F0E9;
+    border: 1px dotted #681414;
+    border-left: 10px solid #681414;
+    color: #d7ccb6;
+    text-shadow: 1px 1px 2px #000;
 }
 
 .menu li {
     list-style-type: none;
     display: inline-block;
     width: 100px;
-    margin: 0 30px;
+    margin: 10px 30px;
 }
 
 .menu a {
     display: block;
     padding: 8px;
-    background: #6fbb9a;
-    border-radius: 8px;
+    background: #681414;
+    border-radius: 100px;
     color: #fff;
     text-decoration: none;
 }
 .menu a:hover{
-    background: #90ddbb;
+    background: #d7ccb6;
+}
+.round{
+    border-radius: 50%;
+}
+.imgL{
+    float: left;
+    margin-right: 5px;
+}
+.imgR{
+    float: right;
+    margin-left: 5px;
+}
+.h-sub{
+    width: 65px ;
+    padding: 3px;
+    background-color: #fbf9cc;
+    color: #ff705b;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px #ffd0ad inset;
+}
+.center{
+    text-align: center;
+    
+}
+.m{
+    margin-top: 30px;
 }

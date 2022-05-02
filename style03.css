@@ -1,15 +1,18 @@
 @charset "utf-8";
 body{
-    background-color: aqua;
+    background-color: #d7ccb6;
 
 }
 a{
-    color: blue;
+    color: #681414;
+}
+a:hover {
+    text-decoration: none;
 }
 #contents{
-    width: 798px;
+    width: 700px;
     margin: 0px auto ;
-    padding: 40px 80px;
+    padding: 30px 70px;
     background-color: #fff;
 }
 #contents1{
@@ -47,4 +50,7 @@ footer{
 }
 section+section{
     margin-top: 60px;
+}
+.m{
+    margin-top: 30px;
 }
