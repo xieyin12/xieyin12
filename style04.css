@@ -1,0 +1,260 @@
+@charset "utf-8";
+
+body {
+    background-color: #d7ccb6;
+    border: 5px solid #681414;
+}
+
+a {
+    color: #681414;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#contents {
+    width: 798px;
+    margin: 40px auto;
+    padding: 40px 80px;
+    border: 0px solid #fff;
+    background-color: #fff;
+}
+
+header,
+nav,
+footer {
+    text-align: center;
+}
+
+h1 {
+    background-color: #681414;
+    color: #d7ccb6;
+    width: 300px;
+    margin: 40px auto;
+    padding: 30px;
+    border: 4px solid #fff;
+    font-size: 200%;
+    text-align: center;
+    line-height: 1;
+    border-radius: 90%;
+    text-shadow: 1px 1px 2px #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0, 5);
+    background-image: linear-gradient(to bottom, #681414, #B53535);
+
+}
+
+h3 {
+    padding: 5px;
+    margin-bottom: 1px;
+    border: 1px dotted #681414;
+    border-left: 10px solid #681414;
+    color: #d7ccb6;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.imgL {
+    float: left;
+    margin-right: 5px;
+}
+
+.imgR {
+    float: right;
+    margin-left: 5px;
+}
+
+.h-sub {
+    width: 65px;
+    padding: 3px;
+    background-color: #fbf9cc;
+    color: #ff705b;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px #ffd0ad inset;
+}
+
+.center {
+    text-align: center;
+
+}
+
+.m {
+    margin-top: 30px;
+}
+
+.m1 {
+    margin-top: 10px;
+}
+
+a[href^="mailto:"]::after {
+    content: url(img/ico_mail.png);
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+
+
+
+
+/* ---------- 大小與定位 ---------- */
+#menu {
+    /* 選單大小 */
+    width: 600px;
+    height: 70px;
+}
+
+#menu ul {
+    /* 取消ul樣式符號 */
+    list-style-type: none;
+    /* 重設ul邊界與留白為零 */
+    margin: 0;
+    padding: 0;
+    /* 內有浮動元件時，需設overflow才會自動調整大小 */
+    overflow: auto;
+
+}
+
+#menu ul li {
+    /* 利用float讓第一層li水平排列 */
+    float: left;
+}
+
+#menu ul li a {
+    /* 將a改為區塊元件，以便指定寬高 */
+    display: block;
+    /* 這邊也要設float，否則IE6會以100%寬度顯示 */
+    float: left;
+    /* 固定高度 */
+    height: 30px;
+    width: 100px;
+    text-align: center;
+}
+
+#menu ul li ul {
+    /* 讓第二層ul跳脫文件流以利定位 */
+    position: absolute;
+    /* 固定寬度 */
+    width: 100px;
+    /* 避免出現捲軸 */
+    overflow: visible;
+    /* 讓ul與母階層li相同位置 */
+    clear: left;
+    margin-top: 30px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+#menu ul li ul li {
+    /* 覆寫繼承自第一層的浮動設定 */
+    float: none;
+    text-align: center;
+}
+
+#menu ul li ul li a {
+    /* 覆寫繼承自第一層的浮動設定 */
+    float: none;
+    width: 100%;
+    /* 註：display、height、padding繼承第一層的設定 */
+}
+
+#menu ul li ul li ul {
+    margin-top: -30px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 100px;
+    width: 100%;
+}
+
+#menu ul li ul li ul li {
+    /* width、float繼承第二層，免設定 */
+}
+
+#menu ul li ul li ul li a {
+    /* width、float繼承第二層，免設定 */
+}
+
+/* ---------- 隱藏與顯示階層 ---------- */
+#menu ul li ul {
+    /* 預先隱藏第二層 */
+    visibility: hidden;
+}
+
+#menu ul li:hover ul {
+    /* 觸動第一層時，顯示第二層 */
+    visibility: visible;
+}
+
+#menu ul li:hover ul li ul {
+    /* 顯示第二層時，隱藏第三層，避免同時彈出 */
+    visibility: hidden;
+}
+
+#menu ul li ul li:hover ul {
+    /* 觸動第二層時，顯示第三層 */
+    visibility: visible;
+}
+
+#menu ul li ul li:hover ul li ul {
+    /* 顯示第三層時，隱藏第四層，避免同時彈出 */
+    visibility: hidden;
+}
+
+#menu ul li ul li ul li:hover ul {
+    /* 觸動第三層時，顯示第四層 */
+    visibility: visible;
+}
+
+/* ---------- 以下為美化用，非必需 ---------- */
+
+
+/* 預設字體 */
+#menu {
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+
+/* 第一層ul背景色彩與邊框 */
+#menu ul {
+    background: #681414;
+}
+
+/* 第一層a字型 */
+#menu ul li a {
+    color: #FFF;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+/*第二層ul背景色彩與邊框  */
+#menu ul li ul {
+    background: lightcoral;
+}
+
+/* 第二層a字型 */
+#menu ul li ul li a {
+    font-size: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+/* 觸動第一層li時，改變背景色 */
+#menu ul li:hover,
+#menu ul li a:hover {
+    background: lightcoral;
+    transition: background-color 1s linear, color 1s ease-in;
+}
+
+#menu ul li:hover a {
+    color: white;
+}
+
+/* 觸動第二層以上li時改變背景色 */
+#menu ul li ul li:hover,
+#menu ul li ul li a:hover {
+    background: lightcoral;
+}

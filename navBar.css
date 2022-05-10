@@ -1,0 +1,22 @@
+nav{
+    background-color: orangered;
+    text-align: right;
+}
+nav ul{
+    margin: 0px;
+}
+nav li {
+    list-style-type: none;
+    display: inline-block;
+}
+nav li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+nav li a:hover{
+    background-color: lightcoral;
+    color: black;
+    transition: background-color 1s linear, color 1s ease-in;
+}
