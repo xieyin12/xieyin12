@@ -1,0 +1,115 @@
+body {
+    margin: 0px;
+}
+
+/*標題列樣式設定*/
+header {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 165, 0, 80%)
+}
+
+.title {
+    color: white;
+    text-align: center;
+}
+
+/*十景分頁內容介紹樣式*/
+.introtxt {
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 30px 50px;
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+
+.text {
+    color: black;
+}
+
+/*十景分頁圖片設定樣式*/
+.gallery-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60vh;
+}
+
+.item {
+    flex: 1;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: flex 2s ease;
+    margin-top: 100px;
+}
+
+.item:hover {
+    flex: 7;
+}
+
+.item-1 {
+    background-image: url('../大同素材/照片/04大同小勇士基地/X儼然是室內、乍看之下封閉的運動場，因為窗光而增添運動設施生氣。即便因為挫折會讓人灰心，見到陽光也會再次打起精神面對挑戰。.JPG');
+}
+
+.item-2 {
+    background-image: url('../大同素材/照片/04大同小勇士基地/懷抱著夢想的孩子就像光芒一樣閃耀，搭配上籃球架更像是正在逐夢踏實的過程中。.JPG');
+}
+
+.item-3 {
+    background-image: url('../大同素材/照片/04大同小勇士基地/從此角度望出去，猶如孩子透過不同角度來看待事務學習思辨，會有不一樣的想法、不一樣的觀點去詮釋。.JPG');
+}
+
+.item-4 {
+    background-image: url('../大同素材/照片/04大同小勇士基地/大同小勇士遠景照/每一扇窗都是一種嶄新的可能性，也可譬喻為每個孩子的夢想都宏大得發亮。.JPG');
+}
+
+.item-5 {
+    background-image: url('../大同素材/照片/02探險時光/記錄著探險時光的一角，院內公共用車一同帶領大夥，勇闖更遙遠的領地。.JPG');
+}
+
+
+/*footer*/
+footer {
+    position: absolute;
+    width: 1263px;
+    height: 50px;
+    top: 789px;
+    background: #FFA500;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.fa-phone {
+    padding-right: 10px;
+}
+
+.fa-envelope {
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.fa-location-dot {
+    padding-left: 20px;
+    padding-right: 10px;
+}

@@ -1,0 +1,115 @@
+body {
+    margin: 0px;
+}
+
+/*標題列樣式設定*/
+header {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 165, 0, 80%)
+}
+
+.title {
+    color: white;
+    text-align: center;
+}
+
+/*十景分頁內容介紹樣式*/
+.introtxt {
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 30px 50px;
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+
+.text {
+    color: black;
+}
+
+/*十景分頁圖片設定樣式*/
+.gallery-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60vh;
+}
+
+.item {
+    flex: 1;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: flex 2s ease;
+    margin-top: 100px;
+}
+
+.item:hover {
+    flex: 7;
+}
+
+.item-1 {
+    background-image: url('../大同素材/照片/08伴飛園地/大眾定義教材皆是無聊沉悶的，但只要善加利用想像力與趣味性，也可以好玩又陪伴著慢飛天使成長。.JPG');
+}
+
+.item-2 {
+    background-image: url('../大同素材/照片/08伴飛園地/成長，脫離不了文字與休憩的薰陶。.JPG');
+}
+
+.item-3 {
+    background-image: url('../大同素材/照片/08伴飛園地/伴飛園地遠景照/上學前必經的門口，猶如一條必經的成長之路。.JPG');
+}
+
+.item-4 {
+    background-image: url('../大同素材/照片/08伴飛園地/伴飛園地遠景照/紀錄著扶持慢飛天使成長的環境。.JPG');
+}
+
+.item-5 {
+    background-image: url('../大同素材/照片');
+}
+
+
+/*footer*/
+footer {
+    position: absolute;
+    width: 1263px;
+    height: 50px;
+    top: 789px;
+    background: #FFA500;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.fa-phone {
+    padding-right: 10px;
+}
+
+.fa-envelope {
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.fa-location-dot {
+    padding-left: 20px;
+    padding-right: 10px;
+}

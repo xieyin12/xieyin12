@@ -1,0 +1,115 @@
+body {
+    margin: 0px;
+}
+
+/*標題列樣式設定*/
+header {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 165, 0, 80%)
+}
+
+.title {
+    color: white;
+    text-align: center;
+}
+
+/*十景分頁內容介紹樣式*/
+.introtxt {
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 30px 50px;
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+
+.text {
+    color: black;
+}
+
+/*十景分頁圖片設定樣式*/
+.gallery-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60vh;
+}
+
+.item {
+    flex: 1;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: flex 2s ease;
+    margin-top: 100px;
+}
+
+.item:hover {
+    flex: 7;
+}
+
+.item-1 {
+    background-image: url('../大同素材/照片/05開心農場/晚豔出荒籬，冷香著秋水。大花咸豐草平凡的小生命，頑強的春風吹又生。.JPG');
+}
+
+.item-2 {
+    background-image: url('../大同素材/照片/05開心農場/運用光影的效果，猶如舞台般，陽光照射在植物身上，顯示出獨特性與聚焦效果，綠化種植也被赤日所眷顧。.JPG');
+}
+
+.item-3 {
+    background-image: url('../大同素材/照片/05開心農場/植物與動物，彼此平衡的畫面，也代表著人類與自然的關係。.JPG');
+}
+
+.item-4 {
+    background-image: url('../大同素材/照片/05開心農場/記錄著開心農場開墾前的影像，草長鶯飛，代表此地的肥沃性.JPG');
+}
+
+.item-5 {
+    background-image: url('../大同素材/照片/05開心農場/記錄著開心農場經開墾的影像.JPG');
+}
+
+
+/*footer*/
+footer {
+    position: absolute;
+    width: 1263px;
+    height: 50px;
+    top: 789px;
+    background: #FFA500;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.fa-phone {
+    padding-right: 10px;
+}
+
+.fa-envelope {
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.fa-location-dot {
+    padding-left: 20px;
+    padding-right: 10px;
+}

@@ -1,0 +1,115 @@
+body {
+    margin: 0px;
+}
+
+/*標題列樣式設定*/
+header {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 165, 0, 80%)
+}
+
+.title {
+    color: white;
+    text-align: center;
+}
+
+/*十景分頁內容介紹樣式*/
+.introtxt {
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 30px 50px;
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+
+.text {
+    color: black;
+}
+
+/*十景分頁圖片設定樣式*/
+.gallery-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60vh;
+}
+
+.item {
+    flex: 1;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: flex 2s ease;
+    margin-top: 100px;
+}
+
+.item:hover {
+    flex: 7;
+}
+
+.item-1 {
+    background-image: url('../大同素材/照片/07夢想驛站/夢想驛站遠景照/記錄著夢想驛站結合園藝造景與表演舞台的圖像，背後蔥翠的綠意如孩子身受巨大溫暖的支持。.jpg');
+}
+
+.item-2 {
+    background-image: url('../大同素材/照片/07夢想驛站/兩張木椅猶如老夫老妻般依偎著併排，追尋夢想時擁有夥伴打氣、充電是極為重要的。.JPG');
+}
+
+.item-3 {
+    background-image: url('../大同素材/照片/07夢想驛站/搭配著椅子與夢想驛站字樣的構圖，休憩與夢想的希望彼此融合。.JPG');
+}
+
+.item-4 {
+    background-image: url('../大同素材/照片');
+}
+
+.item-5 {
+    background-image: url('../大同素材/照片');
+}
+
+
+/*footer*/
+footer {
+    position: absolute;
+    width: 1263px;
+    height: 50px;
+    top: 789px;
+    background: #FFA500;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.fa-phone {
+    padding-right: 10px;
+}
+
+.fa-envelope {
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.fa-location-dot {
+    padding-left: 20px;
+    padding-right: 10px;
+}

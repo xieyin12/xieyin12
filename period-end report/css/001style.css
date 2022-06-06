@@ -1,0 +1,104 @@
+body{
+    margin: 0px;
+}
+/*標題列樣式設定*/
+header{
+    position: sticky;
+    position: -webkit-sticky;
+    top:0;
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgba(255, 165, 0, 80%)
+}
+.title{
+    color: white;
+    text-align: center;
+}
+
+/*十景分頁內容介紹樣式*/
+.introtxt{
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 30px 50px ;
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius:20px;
+}
+.text{
+    color: black;
+}
+
+/*十景分頁圖片設定樣式*/
+.gallery-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60vh;
+  }
+
+.item {
+    flex: 1;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: flex 2s ease;
+    margin-top: 100px;
+  }
+.item:hover{
+    flex: 7;
+}
+
+.item-1 { 
+    background-image: url('../大同素材/照片/01花見步道/花見步道遠景照/別於一般機構的氛圍，會令人產生錯覺—如身臨別境，更加好奇的想要探索潛藏其中的花朵.JPG');
+}
+.item-2 { 
+    background-image: url('../大同素材/照片/01花見步道/零落的雞蛋花偶然三五成群，座落成一幅富有雅興的景色。.JPG');
+}
+.item-3 { 
+    background-image: url('../大同素材/照片/01花見步道/在育幼院猶如被大樹溫暖的環抱般，抬頭還有閃耀的赤日等著你抬頭欣賞！.JPG');
+}
+.item-4 { 
+    background-image: url('../大同素材/照片/01花見步道/除了雞蛋花，還有朱纓花，脈脈抽丹、纖纖鋪翠。.JPG');
+}
+.item-5 { 
+    background-image: url('../大同素材/照片/01花見步道/蟛蜞菊花瓣上可見一條銀絲，綠意盎然的生機中還有其他小生命的存在。.JPG');
+}
+
+
+/*footer*/
+footer {
+    position: absolute;
+    width: 1263px;
+    height: 50px;
+    top: 789px;
+    background: #FFA500;
+}
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.fa-phone{
+    padding-right: 10px;
+}
+
+.fa-envelope{
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.fa-location-dot{
+    padding-left: 20px;
+    padding-right: 10px;
+}

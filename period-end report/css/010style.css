@@ -1,0 +1,115 @@
+body {
+    margin: 0px;
+}
+
+/*標題列樣式設定*/
+header {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 165, 0, 80%)
+}
+
+.title {
+    color: white;
+    text-align: center;
+}
+
+/*十景分頁內容介紹樣式*/
+.introtxt {
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 30px 50px;
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+
+.text {
+    color: black;
+}
+
+/*十景分頁圖片設定樣式*/
+.gallery-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60vh;
+}
+
+.item {
+    flex: 1;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: flex 2s ease;
+    margin-top: 100px;
+}
+
+.item:hover {
+    flex: 7;
+}
+
+.item-1 {
+    background-image: url('../大同素材/照片/10童心園/童心園遠景照/記錄著孩子們與植物相伴的地點。.JPG');
+}
+
+.item-2 {
+    background-image: url('../大同素材/照片/10童心園/正因為彼此互相扶持，也才能夠一同歇下來欣賞沿路風景。.JPG');
+}
+
+.item-3 {
+    background-image: url('../大同素材/照片/10童心園/由孩子們一同種植的蕃茄，累累果實，尚未成熟卻彷彿果香四溢。.JPG');
+}
+
+.item-4 {
+    background-image: url('../大同素材/照片/10童心園/讓孩子精心培育的種子已經成熟，成為鮮嫩欲滴番茄，代表著萬物需要細心呵護終會開花結果。.JPG');
+}
+
+.item-5 {
+    background-image: url('../大同素材/照片/10童心園/記錄著經營童心園時所需要的道具，拍攝出真實的模樣。.JPG');
+}
+
+
+/*footer*/
+footer {
+    position: absolute;
+    width: 1263px;
+    height: 50px;
+    top: 789px;
+    background: #FFA500;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.fa-phone {
+    padding-right: 10px;
+}
+
+.fa-envelope {
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.fa-location-dot {
+    padding-left: 20px;
+    padding-right: 10px;
+}

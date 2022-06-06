@@ -1,0 +1,114 @@
+body{
+    margin: 0px;
+}
+/*標題列樣式設定*/
+header {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 165, 0, 80%)
+}
+
+.title {
+    color: white;
+    text-align: center;
+}
+
+/*十景分頁內容介紹樣式*/
+.introtxt {
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 30px 50px;
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+
+.text {
+    color: black;
+}
+
+/*十景分頁圖片設定樣式*/
+.gallery-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60vh;
+}
+
+.item {
+    flex: 1;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: flex 2s ease;
+    margin-top: 100px;
+}
+
+.item:hover {
+    flex: 7;
+}
+
+.item-1 {
+    background-image: url('../大同素材/照片/03與神同工/利用於近似家扶娃娃的視角，模擬出的角度，有別於訪客與孩子所能看見大同的景色。.JPG');
+}
+
+.item-2 {
+    background-image: url('../大同素材/照片/03與神同工/紀錄與神同工的紀念碑，至今為止也依然屹立不搖的於此陪伴孩子成長。.JPG');
+}
+
+.item-3 {
+    background-image: url('../大同素材/照片/03與神同工/記錄著家扶娃娃的與神同工的涼亭底下，悄悄陪伴著孩子的成長歷程。.JPG');
+}
+
+.item-4 {
+    background-image: url('../大同素材/照片/03與神同工/與神同工遠景照/紀錄著與神同工的紀念碑與家扶共同於此的景象，旁邊圍繞的枝枒如同被神祇祝福而欣欣向榮成長的每一位孩童。.JPG');
+}
+
+.item-5 {
+    background-image: url('../大同素材/照片/02探險時光/記錄著探險時光的一角，院內公共用車一同帶領大夥，勇闖更遙遠的領地。.JPG');
+}
+
+
+/*footer*/
+footer {
+    position: absolute;
+    width: 1263px;
+    height: 50px;
+    top: 789px;
+    background: #FFA500;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.fa-phone {
+    padding-right: 10px;
+}
+
+.fa-envelope {
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.fa-location-dot {
+    padding-left: 20px;
+    padding-right: 10px;
+}
