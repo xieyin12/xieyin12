@@ -36,6 +36,23 @@ header{
     color: black;
 }
 
+/*打卡*/
+.fa-facebook{
+    padding-right: 5px;
+}
+.btn{
+    margin-bottom: 0;
+    display: inline-block;
+}
+a{
+    outline: none;
+    text-decoration: none;
+    color: white;
+    padding:10px 15px 10px;
+    background-color: #36c;
+}
+
+
 /*十景分頁圖片設定樣式*/
 .gallery-wrap {
     display: flex;

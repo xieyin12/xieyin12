@@ -1,0 +1,71 @@
+/*聯絡方式 頁面*/
+
+.content {
+    background-color:rgba(232, 177, 12,10%);
+}
+.contact-form {
+  text-align : center;
+  margin : 0;
+  padding : 0;
+  background-size: cover;
+  background-position : center;
+  font-family : sans-serif;
+}
+.contact-title{
+  margin-top : 100px;
+  text-transform : uppercase;
+  transition : all 4s ease-in-out;
+  color :#444;
+}
+.contact-field{
+  margin-top : 50px;
+  text-transform : uppercase;
+  transition : all 4s ease-in-out;
+  color :#fff;
+}
+.form-control {
+  border: none;
+  outline :  non;
+  width : 600px;
+  background : transparent;
+  border-bottom : 1px solid grey;
+  font-size : 16px;
+  margin-bottom : 16px;
+  
+}
+
+
+.introtext{
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 70px 20px ;
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius:20px;
+}
+.introtext a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+.introtext a:hover{
+    color: #e8b10c;
+    transition: color 0.3s ease-in-out;
+}
+
+
+.fa-facebook-f{
+    padding-left: 10px;
+}
+.fa-instagram{
+    padding-left: 10px;
+}
+.fa-map-pin{
+    padding-left: 10px;
+}
